@@ -8,7 +8,7 @@ Feature: ak new pipe
 		Then when
 
 @TSCID1694081
-	Scenario: main
+	Scenario: main1
 		Given when
 		When when
 		Then when
