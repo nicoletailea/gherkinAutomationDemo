@@ -2,7 +2,7 @@
 @BSPID23004REV0.4.0
 Feature: 1
 	@TSCID1694069
-	Scenario: new
+	Scenario: new1
 		Given given
 		When when
 		Then then
