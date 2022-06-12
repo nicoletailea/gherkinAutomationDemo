@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><features version="1"><feature name="my" path="src\test\resources\my.feature" started="1643213348338" tag=""><file><![CDATA[Feature: my
+<?xml version="1.0" encoding="UTF-8"?><features version="1"><feature name="my" path="src\test\resources\my.feature" started="1651995794427" tag=""><file><![CDATA[Feature: my
   Scenario: pass
     Given given
     When param = "pass"
@@ -12,14 +12,14 @@
   Scenario: fail
     Given given
     When param = "fail"
-    Then then]]></file><scenarios><scenario name="pass"><steps><step duration="301200" name="Given given" status="passed"/><step duration="437300" name="When param = &quot;pass&quot;" status="passed"/><step duration="14700" name="Then then" status="passed"/></steps></scenario><scenario name="skip"><steps><step duration="38200" name="Given given" status="passed"/><step duration="1578500" name="When param = &quot;skip&quot;" status="failed"><error_message><![CDATA[java.lang.AssertionError: expected:<1> but was:<2>
+    Then then]]></file><scenarios><scenario name="pass"><steps><step duration="370100" name="Given given" status="passed"/><step duration="133700" name="When param = &quot;pass&quot;" status="passed"/><step duration="13500" name="Then then" status="passed"/></steps></scenario><scenario name="skip"><steps><step duration="28700" name="Given given" status="passed"/><step duration="1706400" name="When param = &quot;skip&quot;" status="failed"><error_message><![CDATA[java.lang.AssertionError: expected:<1> but was:<2>
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:645)
 	at org.junit.Assert.assertEquals(Assert.java:631)
 	at pack.MyStepdefs.param(MyStepdefs.java:32)
 	at ✽.param = "skip"(src/test/resources/my.feature:9)
-]]></error_message></step><step duration="5800" name="Then then" status="skipped"/></steps></scenario><scenario name="fail"><steps><step duration="38800" name="Given given" status="passed"/><step duration="126100" name="When param = &quot;fail&quot;" status="failed"><error_message><![CDATA[java.lang.Exception
+]]></error_message></step><step duration="9600" name="Then then" status="skipped"/></steps></scenario><scenario name="fail"><steps><step duration="26800" name="Given given" status="passed"/><step duration="128100" name="When param = &quot;fail&quot;" status="failed"><error_message><![CDATA[java.lang.Exception
 	at pack.MyStepdefs.param(MyStepdefs.java:30)
 	at ✽.param = "fail"(src/test/resources/my.feature:14)
-]]></error_message></step><step duration="3000" name="Then then" status="skipped"/></steps></scenario></scenarios></feature></features>
+]]></error_message></step><step duration="3300" name="Then then" status="skipped"/></steps></scenario></scenarios></feature></features>
