@@ -6,9 +6,3 @@ Feature: ak new pipe
 		Given when
 		When when
 		Then when
-
-@TSCID1694081
-	Scenario: main1
-		Given when
-		When when
-		Then when
