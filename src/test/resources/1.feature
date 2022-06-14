@@ -1,8 +1,13 @@
+# language: de
 #Auto generated Octane revision tag
-@BSPID23008REV0.2.0
-Feature:
-  @TSCID1694102
-  Scenario: main
-    Given when
-    When when
-    Then when
+@BSPID24004REV0.3.0
+Funktionalität: validatie
+
+  @TSCID1693353
+  Szenario: test
+    Angenommen when
+    Wenn when
+    Dann when
+    Und when
+    Wenn when
+    Dann when
