@@ -4,6 +4,6 @@
 Feature: spec 2
 	@TSCID4013
 	Scenario: pass
-		Given when
+		Given given
 		When when
 		Then param = "pass"
