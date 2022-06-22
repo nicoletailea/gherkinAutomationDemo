@@ -2,5 +2,5 @@
 Feature: spec 2
 	Scenario: pass
 		Given given
-		When when
+		When given
 		Then param = "pass"
