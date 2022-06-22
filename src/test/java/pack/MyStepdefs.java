@@ -10,14 +10,17 @@ import org.junit.Assert;
 public class MyStepdefs {
     @Given("given")
     public void given() {
+        System.out.println("Given");
     }
 
     @When("when")
     public void when() {
+        System.out.println("When");
     }
 
     @Then("then")
     public void then() {
+        System.out.println("Then");
     }
 
     @When("param = {string}")
