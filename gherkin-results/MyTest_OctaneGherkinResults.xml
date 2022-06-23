@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><features version="1"><feature name="name" path="src\test\resources\bdd1_23009.feature" started="1655892731752" tag=""><file><![CDATA[Feature: name
+<?xml version="1.0" encoding="UTF-8"?><features version="1"><feature name="name" path="src\test\resources\bdd1_23009.feature" started="1655892816024" tag=""><file><![CDATA[Feature: name
 	Scenario: pass
 		Given given
 		When when
@@ -13,10 +13,10 @@
 		Given given
 		When when
 		Then param = "skip"
-]]></file><scenarios><scenario name="pass"><steps><step duration="401300" name="Given given" status="passed"/><step duration="64100" name="When when" status="passed"/><step duration="121900" name="Then param = &quot;pass&quot;" status="passed"/></steps></scenario><scenario name="fail"><steps><step duration="49700" name="Given given" status="passed"/><step duration="27600" name="When when" status="passed"/><step duration="851700" name="Then param = &quot;fail&quot;" status="failed"><error_message><![CDATA[java.lang.Exception: Failing test
+]]></file><scenarios><scenario name="pass"><steps><step duration="677900" name="Given given" status="passed"/><step duration="97500" name="When when" status="passed"/><step duration="199100" name="Then param = &quot;pass&quot;" status="passed"/></steps></scenario><scenario name="fail"><steps><step duration="45200" name="Given given" status="passed"/><step duration="19000" name="When when" status="passed"/><step duration="707700" name="Then param = &quot;fail&quot;" status="failed"><error_message><![CDATA[java.lang.Exception: Failing test
 	at pack.MyStepdefs.param(MyStepdefs.java:33)
 	at ✽.param = "fail"(src/test/resources/bdd1_23009.feature:10)
-]]></error_message></step></steps></scenario><scenario name="skip"><steps><step duration="48700" name="Given given" status="passed"/><step duration="27800" name="When when" status="passed"/><step duration="1440700" name="Then param = &quot;skip&quot;" status="failed"><error_message><![CDATA[java.lang.AssertionError: Test with failing assertion expected:<1> but was:<2>
+]]></error_message></step></steps></scenario><scenario name="skip"><steps><step duration="43200" name="Given given" status="passed"/><step duration="18100" name="When when" status="passed"/><step duration="1063300" name="Then param = &quot;skip&quot;" status="failed"><error_message><![CDATA[java.lang.AssertionError: Test with failing assertion expected:<1> but was:<2>
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:645)
