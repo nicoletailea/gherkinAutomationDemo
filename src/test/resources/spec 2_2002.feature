@@ -18,7 +18,7 @@ Feature: BddSpec
 	Scenario: skip2
 		Given gi
 
-	Scenario: skip
+	Scenario: skip3
 		Given given
 		When when
 		Then param = "skipByThrow"
