@@ -4,6 +4,7 @@ Feature: BddSpec
 		When when
 		Then param = "pass"
 
+	@Exclude
 	Scenario: skip
 		Given given
 		When when
@@ -13,3 +14,6 @@ Feature: BddSpec
 		Given given
 		When when
 		Then param = "fail"
+
+	Scenario: skip2
+		Given gi
