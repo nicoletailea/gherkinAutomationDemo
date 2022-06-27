@@ -1,5 +1,6 @@
 package pack;
 
+import cucumber.api.PendingException;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -31,6 +32,8 @@ public class MyStepdefs {
                 throw new Exception("Failing test");
             case "skip":
                 Assert.assertEquals("Test with failing assertion", 1, 2);
+            case "skipByThrow":
+                throw new PendingException();
         }
     }
 
