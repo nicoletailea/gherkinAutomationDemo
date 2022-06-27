@@ -30,7 +30,7 @@ public class MyStepdefs {
                 break;
             case "fail":
                 throw new Exception("Failing test");
-            case "skip":
+            case "failedAssert":
                 Assert.assertEquals("Test with failing assertion", 1, 2);
             case "skipByThrow":
                 throw new PendingException();

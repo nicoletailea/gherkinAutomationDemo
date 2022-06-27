@@ -5,20 +5,17 @@ Feature: BddSpec
 		Then param = "pass"
 
 	@Exclude
-	Scenario: skip
+	Scenario: failedAssert
 		Given given
 		When when
-		Then param = "skip"
+		Then param = "failedAssert"
 
-	Scenario: fail
+	Scenario: exception
 		Given given
 		When when
 		Then param = "fail"
 
-	Scenario: skip2
-		Given gi
-
-	Scenario: skip3
+	Scenario: skip
 		Given given
 		When when
 		Then param = "skipByThrow"
