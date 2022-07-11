@@ -18,3 +18,8 @@ Feature: BddSpec
 		Given given
 		When when
 		Then param = "skipByThrow"
+
+	Scenario: skippe
+		Given given
+		When when
+		Then param = "skipByThrow"
