@@ -19,7 +19,8 @@ Feature: BddSpec
 		When when
 		Then param = "skipByThrow"
 
-	Scenario: skippe
+	@TSCID1728023
+	Scenario: skipped
 		Given given
 		When when
 		Then param = "skipByThrow"
