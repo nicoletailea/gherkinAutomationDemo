@@ -1,28 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?><features version="1"><feature name="BddSpec" path="src\test\resources\spec 2_2002.feature" started="1656329751643" tag=""><file><![CDATA[Feature: BddSpec
-	Scenario: pass
+<?xml version="1.0" encoding="UTF-8"?><features version="1"><feature name="BddSpec" path="src\test\resources\spec 2_2002.feature" started="1656344294204" tag=""><file><![CDATA[Feature: BddSpec
+	Scenario: passing
 		Given given
 		When when
 		Then param = "pass"
 
-	@Exclude
-	Scenario: skip
-		Given given
-		When when
-		Then param = "skip"
-
-	Scenario: fail
+	Scenario: exception
 		Given given
 		When when
 		Then param = "fail"
 
-	Scenario: skip2
-		Given gi]]></file><scenarios><scenario name="pass"><steps><step duration="369000" name="Given given" status="passed"/><step duration="54200" name="When when" status="passed"/><step duration="111900" name="Then param = &quot;pass&quot;" status="passed"/></steps></scenario><scenario name="skip"><steps><step duration="51200" name="Given given" status="passed"/><step duration="27500" name="When when" status="passed"/><step duration="1540100" name="Then param = &quot;skip&quot;" status="failed"><error_message><![CDATA[java.lang.AssertionError: Test with failing assertion expected:<1> but was:<2>
-	at org.junit.Assert.fail(Assert.java:88)
-	at org.junit.Assert.failNotEquals(Assert.java:834)
-	at org.junit.Assert.assertEquals(Assert.java:645)
-	at pack.MyStepdefs.param(MyStepdefs.java:33)
-	at ✽.param = "skip"(src/test/resources/spec 2_2002.feature:11)
-]]></error_message></step></steps></scenario><scenario name="fail"><steps><step duration="49300" name="Given given" status="passed"/><step duration="27400" name="When when" status="passed"/><step duration="131600" name="Then param = &quot;fail&quot;" status="failed"><error_message><![CDATA[java.lang.Exception: Failing test
-	at pack.MyStepdefs.param(MyStepdefs.java:31)
-	at ✽.param = "fail"(src/test/resources/spec 2_2002.feature:16)
-]]></error_message></step></steps></scenario><scenario name="skip2"><steps><step duration="0" name="Given gi" status="undefined"/></steps></scenario></scenarios></feature></features>
+	Scenario: skipped
+		Given given
+		When when
+		Then param = "skipByThrow"]]></file><scenarios><scenario name="passing"><steps><step duration="554400" name="Given given" status="passed"/><step duration="74700" name="When when" status="passed"/><step duration="181900" name="Then param = &quot;pass&quot;" status="passed"/></steps></scenario><scenario name="exception"><steps><step duration="47600" name="Given given" status="passed"/><step duration="27000" name="When when" status="passed"/><step duration="746800" name="Then param = &quot;fail&quot;" status="failed"><error_message><![CDATA[java.lang.Exception: Failing test
+	at pack.MyStepdefs.param(MyStepdefs.java:32)
+	at ✽.param = "fail"(src/test/resources/spec 2_2002.feature:10)
+]]></error_message></step></steps></scenario><scenario name="skipped"><steps><step duration="53300" name="Given given" status="passed"/><step duration="28200" name="When when" status="passed"/><step duration="824400" name="Then param = &quot;skipByThrow&quot;" status="pending"><error_message><![CDATA[cucumber.api.PendingException: TODO: implement me
+	at pack.MyStepdefs.param(MyStepdefs.java:36)
+	at ✽.param = "skipByThrow"(src/test/resources/spec 2_2002.feature:15)
+]]></error_message></step></steps></scenario></scenarios></feature></features>
