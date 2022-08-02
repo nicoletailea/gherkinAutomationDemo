@@ -7,17 +7,17 @@ import cucumber.api.java.en.When;
 import org.junit.Assert;
 
 public class MyStepdefs {
-    @Given("sdsd")
+    @Given("angenommen")
     public void angenommen() {
         System.out.println("angenommen");
     }
 
-    @When("ds")
+    @When("wenn")
     public void wenn() {
         System.out.println("Wenn");
     }
 
-    @Then("sdfsdf")
+    @Then("dann")
     public void dann() {
         System.out.println("Dann");
     }
