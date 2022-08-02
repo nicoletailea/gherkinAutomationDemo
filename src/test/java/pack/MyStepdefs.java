@@ -8,21 +8,21 @@ import org.junit.Assert;
 
 public class MyStepdefs {
     @Given("sdsd")
-    public void given() {
-        System.out.println("Given");
+    public void angenommen() {
+        System.out.println("angenommen");
     }
 
     @When("ds")
-    public void when() {
-        System.out.println("When");
+    public void wenn() {
+        System.out.println("Wenn");
     }
 
     @Then("sdfsdf")
-    public void then() {
-        System.out.println("Then");
+    public void dann() {
+        System.out.println("Dann");
     }
 
-    @When("param = {string}")
+    /*@When("param = {string}")
     public void param(String string) throws Exception {
         switch (string) {
             case "pass":
@@ -35,6 +35,6 @@ public class MyStepdefs {
             case "skipByThrow":
                 throw new PendingException();
         }
-    }
+    }*/
 
     }
