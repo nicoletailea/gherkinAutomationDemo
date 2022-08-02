@@ -7,22 +7,22 @@ import cucumber.api.java.en.When;
 import org.junit.Assert;
 
 public class MyStepdefs {
-    @Und("und")
+    @Given("und")
     public void given() {
         System.out.println("Given");
     }
 
-    @Wenn("wenn")
+    @When("wenn")
     public void when() {
         System.out.println("When");
     }
 
-    @Dann("dann")
+    @Then("dann")
     public void then() {
         System.out.println("Then");
     }
 
-    @Wenn("param = {string}")
+    @When("param = {string}")
     public void param(String string) throws Exception {
         switch (string) {
             case "pass":
