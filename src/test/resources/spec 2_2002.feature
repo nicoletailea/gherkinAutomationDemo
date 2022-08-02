@@ -4,11 +4,9 @@
 Funktionalität: validatie
 
 	Szenario: test
-		Angenommen sdsd
-		Wenn ds
-		Dann sdfsdf
-        Und sdf
-        Wenn sdg
-        Dann sddf
+		Angenommen angenommen
+		Wenn wenn
+		Dann dann
+
 
 		
