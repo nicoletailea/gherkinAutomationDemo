@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><features version="1"><feature name="validatie" path="src\test\resources\os1_30001.feature" started="1659452207439" tag=""><file><![CDATA[
 # language: de
 #Auto generated Octane revision tag
-@BSPID30001REV0.2.0
-Funktionalität: os_a_b
+@BSPID30001REV0.5.0
+Funktionalität: os_a_c
 
 @TSCID1835086
 	Beispiel: os B
