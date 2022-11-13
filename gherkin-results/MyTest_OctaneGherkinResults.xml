@@ -1,8 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?><features version="1"><feature name="validatie" path="src\test\resources\spec 2_2002.feature" started="1659452207439" tag=""><file><![CDATA[# language: de
+<?xml version="1.0" encoding="UTF-8"?><features version="1"><feature name="validatie" path="src\test\resources\os1_30001.feature" started="1659452207439" tag=""><file><![CDATA[# language: de
+# language: de
 #Auto generated Octane revision tag
-Funktionalität: validatie
-	Szenario: test
-		Angenommen angenommen
-		Wenn wenn
-		Dann dann
-]]></file><scenarios><scenario name="test"><steps><step duration="658700" name="Angenommen angenommen" status="passed"/><step duration="72100" name="Wenn wenn" status="passed"/><step duration="45500" name="Dann dann" status="passed"/></steps></scenario></scenarios></feature></features>
+@BSPID30001REV0.2.0
+Funktionalität: os_a
+
+@TSCID1835086
+	Beispiel: os B
+		Angenommen os C 
+		Wenn os D
+		Dann os E
+
+]]></file><scenarios><scenario name="os B"><steps><step duration="658700" name="Angenommen angenommen" status="passed"/><step duration="72100" name="Wenn wenn" status="passed"/><step duration="45500" name="Dann dann" status="passed"/></steps></scenario></scenarios></feature></features>
