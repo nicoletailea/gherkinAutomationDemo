@@ -7,7 +7,7 @@ import cucumber.api.java.en.When;
 import org.junit.Assert;
 
 public class MyStepdefs {
-    @Given("angenommen")
+    @Given("Angenommen")
     public void angenommen() {
         System.out.println("angenommen");
     }
